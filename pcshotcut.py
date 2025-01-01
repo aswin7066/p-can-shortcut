@@ -2,7 +2,7 @@
 import csv
 import random
 from colorama import Back, Fore
-with open(r"/home/aswin/dmt/Pcan_shortcut/input_arbID.csv") as f:
+with open(r"input_arbID.csv") as f:
     reader = csv.reader(f)
     out_str = ""
     for x, y in zip(reader, range(1, 100)):
